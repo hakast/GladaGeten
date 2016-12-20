@@ -1,0 +1,41 @@
+﻿
+
+.inputBooking, select {
+  width: 300px;
+  height: 35px;
+  padding: 0px 10px;
+  font-size: 18px;
+  float: right;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.34);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.34);
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.34);
+  border: 1px solid #ccc;
+}
+select {
+  height: 36px;
+}
+#bookNow {
+  width: 100%;
+  background: #87a338;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 5px;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+#roomsAvaliable {
+  width:100%;
+  font-size:18px;
+  font-style:italic;
+  text-align: right;
+}
+
+/* sätter minde bredd för mobiler/tablets */
+@media screen and (max-width: 600px) {
+  #container {
+    width:95%;
+  }
+}

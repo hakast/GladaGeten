@@ -1,0 +1,34 @@
+/* ----------------------------------------
+// Gallery
+// ---------------------------------------*/
+#admin-gallery {
+  overflow: hidden; }
+
+.admin-page section {
+  overflow: hidden;
+  border-bottom: 1px solid black; }
+
+.image-item a {
+  margin-top: 10px; }
+
+@media (max-width: 10000px) {
+  .image-item:nth-of-type(6n+7) {
+    clear: both; } }
+
+@media (max-width: 1200px) {
+  .image-item:nth-of-type(6n+7) {
+    clear: none; }
+  .image-item:nth-of-type(4n+5) {
+    clear: both; } }
+
+@media (max-width: 992px) {
+  .image-item:nth-of-type(4n+5) {
+    clear: none; }
+  .image-item:nth-of-type(3n+4) {
+    clear: both; } }
+
+@media (max-width: 768px) {
+  .image-item:nth-of-type(3n+4) {
+    clear: none; }
+  .image-item:nth-of-type(2n+3) {
+    clear: both; } }

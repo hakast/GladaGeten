@@ -1,0 +1,78 @@
+/* ----------------------------------------
+// Gallery
+// ---------------------------------------*/
+
+.admin-error {
+	color: #e40613;
+}
+	#admin-gallery {
+		overflow: hidden;
+	}
+
+	.admin-page section {
+		overflow: hidden;
+		border-bottom: 1px solid black;
+	}
+
+	.image-item a {
+		margin-top: 10px;
+	}
+
+	@media (max-width: 10000px) {
+
+	    .image-item:nth-of-type(6n+7) {
+	        clear: both;
+	    }
+
+	}
+
+	@media (max-width: 1200px) {
+
+	    .image-item:nth-of-type(6n+7) { clear: none; }
+
+	    .image-item:nth-of-type(4n+5) {
+	        clear: both;
+	    }
+
+	}
+
+	@media (max-width: 992px) {
+	    .image-item:nth-of-type(4n+5) { clear: none; }
+
+	    .image-item:nth-of-type(3n+4) {
+	        clear: both;
+	    }
+
+	}
+
+	@media (max-width: 768px) {
+		.image-item:nth-of-type(3n+4) { clear: none; }
+
+		.image-item:nth-of-type(2n+3) {
+			clear: both;
+	    }
+
+	}
+
+.admin-page section {
+	/*background-color: rgba(0, 0, 0, .5);*/
+	overflow: hidden;
+	border-bottom: 1px solid black;
+}
+
+.admin-page #admin-gallery .thumbnail a {
+	margin: 5px;
+}
+
+.admin-gallery-thumb {
+	max-height: 150px !important;
+}
+
+
+/*
+ ABOUT ADMIN!!!!!!!!!!!!!!! ------ yay :) :) :) hehehehe
+*/
+
+.about-text img {
+    width: 100px;
+}
