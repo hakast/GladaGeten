@@ -45,7 +45,7 @@ $result = mysqli_query($connection, $query);
 
   <div class="container">
 
-    <?php
+<?php
 
 //HÄMTAR RESULTATET, LOOPAR IGENOM DET, SPARAR I EN VAR    
 while($row = mysqli_fetch_assoc($result)) {

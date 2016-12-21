@@ -22,7 +22,7 @@
     if (isset($_POST['save2'])) {//Vid klick på knapp med namn 'save2'
       $aboutText2 = $_POST["text2"];//sparas text i text2 i en variabel
       mysqli_query($connection, "UPDATE abouttext 
-        SET text = '$aboutText2' WHERE id=2");//Texten uppdateras
+      SET text = '$aboutText2' WHERE id=2");//Texten uppdateras
     }
 ?>
 

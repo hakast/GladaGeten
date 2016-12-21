@@ -3,7 +3,6 @@
     $(".date").datepicker();
     $(".date").datepicker('option', 'dateFormat', 'yy-mm-dd');
 
-
     $("#bookNow").click(function () {
         var people = Number($("#people").val());
         var room = $("#room").val();
@@ -15,7 +14,6 @@
         var city = $("#city").val();
         var mail = $("#mail").val();
         var mobil = $("#mobil").val();
-
 
         //Posta alla värden till PsHP
         var bookingData = '&people=' + people + '&room=' + room + '&checkin=' + checkin + '&checkout=' + checkout + '&name=' + name + '&address=' + address + '&zip=' + zip + '&city=' + city + '&mail=' + mail + '&mobil=' + mobil;
