@@ -16,10 +16,10 @@
         <div class="row">
             <div class="col-xs-2"></div>
                 <div class="col-xs-8">
-                    
+
  <!---MENY-->
         <nav class="navbar navbar-inverse">
-            <div class="container-fluid" style= "background-color:#000000;">
+            <div class="container-fluid" style= "background-color:red;">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -29,10 +29,10 @@
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav" style="background-color:black">
+                    <ul class="nav navbar-nav" style="background-color:red">
                         <li><a href="index.php" style="color:white; font-size:14px;">Hem</a></li>
                         <li><a href="aktiviteter.php" style="color:white; font-size:14px;">Aktiviteter</a></li>
-                        <li><a href="bokning.php" style="color:red; font-size:14px;">Boka</a></li>
+                        <li><a href="bokning.php" style="color:white; font-size:14px;">Boka</a></li>
                         <li><a href="bildspel.php" style="color:white; font-size:14px;">Bilder</a></li>
                     </ul>
                 </div>
@@ -42,11 +42,11 @@
             </div>
 
         <div class="container">
-            
+
 <!--LOGOTYPE-->
             <div class="row">
                 <div class="col-xs-2">
-                    <div>                      
+                    <div>
                     </div>
                 </div>
                 <div class="col-xs-8">
@@ -55,7 +55,7 @@
             </div>
         </div>
         <br /><br />
-       
+
 <!--HÄR BÖRJAR BILD-KARUSELLEN-->
         <div class="row">
             <div class="col-xs-2"></div>
@@ -91,7 +91,7 @@
                             </div>
                         </div>
                     </div>
-        
+
 <!-- KONTROLLER FÖR PILARNA VÄNSTER HÖGER I KARUSELLEN INDEX-SIDAN-->
                     <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -103,7 +103,7 @@
                     </a>
                 </div>
             </div>
-        </div>    
+        </div>
 
     <div class="row">
         <div class="col-xs-2"></div>
@@ -116,27 +116,26 @@
                           Norrbotten.
                         </strong><br /><br />
                       Utöver smakfullt inredda rum finns även aktiveter att boka in under din vistelse. Gården är en
-                      gammal släktgård, som 2005 gjordes om till b&b och har sedan dess lockat besökare från hela Sverige och även
+                      gammal släktgård, som 2005 gjordes om till bed & breakfast och har sedan dess lockat besökare från hela Sverige och även
                       världen. På den glada geten har vi två ”husgetter”, Gösta och Selma, som håller till i en liten hage alldeles
                       bredvid gårdshuset. Kring gården finns även trevliga vandringsslingor och vågar min sig på ett dopp i älven
-                      kan man boka bastu på den glada geten efter det svalkande doppet. 
+                      kan man boka bastu på den glada geten efter det svalkande doppet.
                     </p>
                 </center>
             </div>
         </div>
     </div>
     <br />
-    
+
     <!--HÄR HAR VI FOOTER-->
     <hr width="50%" />
     <footer>
         <p id="footer">
             Hotell Glada Geten • Olof Skötkonungs Gata 23 •
-            120 64 Stockholm • 08 – 123 45 67 • 070-123 45 67 • <a href="mailto:glada.geten@kyh.se ">Maila oss härifrån!</a>
+            120 64 Stockholm • 08 – 123 45 67 • 070-123 45 67 • <a href="mailto:hakast@gmail.com ">Maila oss!</a>
         </p>
     </footer>
     <br />
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57f11e36d003b2e7"></script>
 </body>
 </html>

@@ -25,10 +25,10 @@
         <div class="row">
             <div class="col-xs-2"></div>
                 <div class="col-xs-8">
-                    
+
 <!--MENY-->
         <nav class="navbar navbar-inverse">
-            <div class="container-fluid" style= "background-color:#000000;">
+            <div class="container-fluid" style= "background-color:red;">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -38,10 +38,10 @@
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav" style="background-color:black">
+                    <ul class="nav navbar-nav" style="background-color:red">
                         <li><a href="index.php" style="color:white; font-size:14px;">Hem</a></li>
                         <li><a href="aktiviteter.php" style="color:white; font-size:14px;">Aktiviteter</a></li>
-                        <li><a href="bokning.php" style="color:red; font-size:14px;">Boka</a></li>
+                        <li><a href="bokning.php" style="color:white; font-size:14px;">Boka</a></li>
                         <li><a href="bildspel.php" style="color:white; font-size:14px;">Bilder</a></li>
                     </ul>
                 </div>
@@ -49,7 +49,7 @@
         </nav>
                </div>
             </div>
-            
+
       <div class="row">
       <div class="col-xs-2"></div>
       <div class="col-xs-8">
@@ -76,4 +76,3 @@
   </footer><br />
 </body>
 </html>
-
