@@ -1,3 +1,3 @@
 # GladaGeten
-A project where I built a website with booking system. 
-There is alse a backend. wwww.../admin where you can edit files delete bookings and so on
+A project which I built as a website with a booking system, some infopages and one pages with images. 
+There is alse a backend. wwww...GladaGeten/admin where you can edit files, pictures and delete bookings. 
